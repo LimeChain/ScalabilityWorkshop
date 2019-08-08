@@ -1,10 +1,5 @@
-## Prerequisites
-### Etherlime
-- Etherlime is ethereum development and deployment framework based on ethers.js. We will be using it to create, compile, test and deploy our projects
+## ECRecover
+ECRecover is method for proving that a given message was signed by the owner of a given address. Can be used for massively reducing the number of on-chain interactions.
 
-## Table of Contents
-- ECRecover - branch: 01-ecrecover
-- Merkle Trees - branch: 02-merkle-trees
-- Monoplasma - branch: 03-monoplasma
-- Abridged SDK - branch: 04-abridged-sdk
-
+## Example Use Case
+Negotiating the sell of NFT off-chain with on-chain finalization
