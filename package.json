@@ -1,0 +1,21 @@
+{
+  "name": "etherlime-project",
+  "version": "1.0.0",
+  "description": "This is the default package.json generated for your project",
+  "main": "index.js",
+  "scripts": {
+    "get-dependancies": "go get -d ./...",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "etherlime deploy",
+    "start": "cd merkle-tree-system && gomon main.go -db=\"user=georgespasov dbname=postgres port=5432 sslmode=disable\" -n=\"https://rinkeby.infura.io/40c2813049e44ec79cb4d7e0d18de173\" -s=\"d723d3cdf932464de15845c0719ca13ce15e64c83625d86ddbfc217bd2ac5f5a\" -c=\"0x78d8dfC659aA493877230A247BE11fDf6294Fd2C\" -ap=8080 -p=30",
+    "gen": "abigen --abi=merkle-tree-system/integrated/abis/RootValidator.abi --pkg=rootValidator --out=merkle-tree-system/integrated/contracts/RootValidator.go"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^2.3.0",
+    "etherlime-lib": "^1.1.3",
+    "solc": "^0.5.2",
+    "solidity-bytes-utils": "^0.0.8"
+  }
+}
