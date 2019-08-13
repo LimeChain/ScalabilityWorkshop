@@ -1,12 +1,10 @@
 ## Prerequisites
-### Go
-- For
 
-## Table of Contents
-- ECRecover - branch: 01-ecrecover
-- Merkle Trees - branch: 02-merkle-trees
-- Monoplasma - branch: 03-monoplasma
-- Abridged SDK - branch: 04-abridged-sdk
+### Golang
+- The merkle tree is built in GO
+
+## Idea
+Store an airdrop data in an merkle tree
 
 ## FAQ
 ### Problems linking it
